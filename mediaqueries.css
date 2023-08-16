@@ -67,10 +67,9 @@
     .title{
       font-size: 2.5rem;
 }
-      .project-img{
-       width: 80% ;
-       height: auto;
+    .project-img{
+       width: auto;
+       height: 70% ;
        border-radius: 10px;
 }
 }
-
