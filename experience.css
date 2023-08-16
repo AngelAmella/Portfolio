@@ -1,0 +1,44 @@
+#experience{
+    padding: 4vh;
+    height: 100%;
+    margin: 0 , 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+  }
+.title_experience{
+    font-family: 'Unbounded', cursive;
+    margin-top:2%;
+    font-weight: 700;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 0%;
+    
+}
+h2{
+    font-family: 'Unbounded', cursive;
+    font-weight: 400;
+    
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+}
+p{
+    font-family: 'Poppins', sans-serif;
+   
+}
+.about-container{
+ display: flex;
+ flex-direction: row;
+}
+.details-container{
+    margin: 2rem;
+    gap: 5 rem;
+    padding: 1.5rem;
+    flex: 1;
+    border-radius: 2rem;
+    border: rgb(53,53,53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align: center;
+}

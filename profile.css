@@ -1,0 +1,62 @@
+/*SECTION PROFILE*/
+
+  .section-container{
+    display: flex;
+  }
+  #profile{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    
+  }
+  .section_pic-container{
+    display: flex;
+    justify-content: center;   
+    margin: auto 0;
+  }
+  #yellow{
+    width: 250px ;
+    height: 250px;
+  }
+  .section_text{
+    margin: 0px;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .section_text p{
+    
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .title{
+    
+    font-family: 'Unbounded', cursive;
+    font-weight: 600;
+    margin: 0%;
+    font-weight: 600;
+    align-self: center;
+    font-size: 5rem;
+    margin-bottom: 0%;
+  }
+  
+  #socials-container{
+    display: flex;
+    align-self: center;
+    flex-direction:column;
+    gap:1rem;
+  }
+  #idpic{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+  }
+  
+  .icon{
+    width: 50px;
+    height: 50px;
+  }
+  

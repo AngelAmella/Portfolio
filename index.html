@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="experience.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Portfolio</title>
+    
+</head>
+<body>
+
+    <nav id="desktop-nav" class="innernav">
+        <div>
+            <ul class="nav-links">
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links"> 
+                <li><a href="#profile" onclick="toggleMenu()">Profile</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contactme" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile"> 
+        <div class="section_pic-container">
+            <img id="yellow" src="yellow.png" alt="Angel Coquia picture">
+        </div> 
+        <div class="section_text">
+        <h1 class="title">HELLO</h1>
+        <p class="section_text_p1">My name is Angel Amella T. Coquia</p>
+        <p class="section_text_p2">BS Information Technology | Major in Web Development </p>
+        </div>
+        <div id="socials-container">
+            <img src="linkedin.png" alt="linkedin profile" class="icon"
+            onclick="location.href='https://linkedin.com/in/angelcoquia/'">
+            <img src="github.png" alt="linkedin profile" class="icon"
+            onclick="location.href='https://github.com/AngelAmella'">
+        </div>
+    </section>
+
+    <section id="experience"> 
+        <h1 class="title_experience">Skills</h1>
+        <div class="experience-container">
+            <div class="about-container">
+                <div class="details-container"><!--FIRST DETAILS CONTAINER-->
+                    <h2 class="exp-subtitle">Frontend Development</h2>
+                    <div class="article-container">
+                    <article>
+                        <img 
+                        src="check.png" 
+                        alt="checkmark"
+                        class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="check.png" 
+                        alt="checkmark"
+                        class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="check.png" 
+                        alt="checkmark"
+                        class="icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="check.png" 
+                        alt="checkmark"
+                        class="icon">
+                        <div>
+                            <h3>Java</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="check.png" 
+                        alt="checkmark"
+                        class="icon">
+                        <div>
+                            <h3>Python</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    </div>
+                </div>
+                <div class="details-container"><!--SECOND DETAILS CONTAINER-->
+                    <h2 class="exp-subtitle">Backend Development</h2>
+                    <div class="article-container">
+                    <article>
+                        <img 
+                        src="check.png" 
+                        alt="checkmark"
+                        class="icon">
+                        <div>
+                            <h3>MySQL</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="check.png" 
+                        alt="checkmark"
+                        class="icon">
+                        <div>
+                            <h3>NodeJs</h3>
+                            <p>Learning</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="check.png" 
+                        alt="checkmark"
+                        class="icon">
+                        <div>
+                            <h3>ExpressJs</h3>
+                            <p>Learning</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="check.png" 
+                        alt="checkmark"
+                        class="icon">
+                        <div>
+                            <h3>MongoDB</h3>
+                            <p>Learning</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="check.png" 
+                        alt="checkmark"
+                        class="icon">
+                        <div>
+                            <h3>C++</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">     
+        <h1 class="title_projects">Projects</h1>
+        <div class="proj_details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="QuizIT mock.png"
+                    alt="Project1"
+                    class="project-img"/>
+                </div>
+                <h2 class="project-title">QuizIT!</h2>
+                <p class="exp-subtitle">My first project as a sophomore. A Quiz/Reviewer application for 
+                    people of all ages to learn about computer peripherals. </p>
+                    <div id="github-link">
+                        <img src="github.png" alt="github repository" class="icon"
+                        onclick="location.href='https://github.com/AngelAmella/QuizIT'">
+                    </div>
+            
+            </div>
+            <div class="details-container color-container">        
+                    <div class="article-container">
+                        <img 
+                        src="185-mock.png"
+                        alt="Project2"
+                        class="project-img"/>
+                    </div>
+                    <h2 class="project-title">CITE Events 2022</h2>
+                    <p class="exp-subtitle">My first project as a Web Dev student. A website that showcases the events that happened 
+                        in our college department. </p>
+                    <div id="github-link">
+                        <img src="github.png" alt="github repository" class="icon"
+                        onclick="location.href='https://github.com/AngelAmella/CiteEvents'">
+                    </div>
+            </div>
+            <div class="details-container color-container">        
+                    <div class="article-container">
+                        <img 
+                        src="covid.png"
+                        alt="Project3"
+                        class="project-img"/>
+                    </div>
+                    <h2 class="project-title">Covid Assistance</h2>
+                    <p class="exp-subtitle">An application that assists staff on what to do if a student has Covid-19 symptoms</p>
+            </div>        
+            <div class="details-container color-container">                
+                    <div class="article-container">
+                        <img 
+                        src="jeep-mock.png"
+                        alt="Project4"
+                        class="project-img"/>
+                    </div>
+                    <h2 class="project-title">Jeep City</h2>
+                    <p class="exp-subtitle">A web application that shows the Jeepney routes of Dagupan City for tourists.</p>
+                    <div id="github-link">
+                        <img src="github.png" alt="github repository" class="icon"
+                        onclick="location.href='https://github.com/AngelAmella/JeepCity'">
+                    </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="contactme">
+        
+        <p class="section_text_contact">Get in Touch</p>
+        <h1 class="title_projects">Contact Me</h1>
+        <form action="https://formsubmit.co/8eb42dc849325cc032a8c40494158fe3" method="POST">
+            <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <input class="fields" type="text" name="Name" placeholder="Full Name" required>
+                <input class="fields" type="email" name="Email" placeholder="Email" required>
+                <select name="Continent" class="confields">
+                    <option>Africa</option>
+                    <option>Antartica</option>
+                    <option>Asia</option>
+                    <option>Australia</option>
+                    <option>Europe</option>
+                    <option>North America</option>
+                    <option>South America</option>
+                </select>
+                <textarea class="fields" name="Message" placeholder="Message" required></textarea>
+                <button class="submitbtn" type="submit">Submit</button>
+        </div>
+        </form>
+    </section>
+    <section id="logo-sec">
+    <div class="logo-wrapper">
+        <img src="AngelCoquialogo.png" id="logo">
+    </div>
+    </section>
+<footer>
+    <div class="footer-container">
+       <p id="copy">Copyright © Angel Amella T. Coquia</p>
+    </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>

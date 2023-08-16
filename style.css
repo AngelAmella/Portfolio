@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;400;700&display=swap');
+
+
+
+section{
+  padding: 50px;
+  height: 96vh;
+  margin: 0 , 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+
+
+::-webkit-meter-even-less-good-value
+html{
+  scroll-behavior: smooth;
+}
+
+p{
+  color: rgb(85,85,85);
+  font-family: 'Open Sans', sans-serif ;
+}
+
+a,.btn{
+  transition: all 300ms ease;
+}
+
+
+footer{
+  background-color: rgb(48, 46, 46) ;
+  margin: 0;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+}
+.footer-container{
+  display: flex;
+  justify-content: center;
+ 
+}
+#copy{
+ color: white;
+}
+
+.logo-sec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+#logo{
+  height: 300px;
+  width: auto;
+  margin-bottom: 10%;
+  justify-content: center;
+}
+.logo-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
